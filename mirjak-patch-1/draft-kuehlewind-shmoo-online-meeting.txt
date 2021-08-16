@@ -5,8 +5,8 @@
 Network Working Group                                      M. Kuehlewind
 Internet-Draft                                                  Ericsson
 Intended status: Informational                                   M. Duke
-Expires: 19 November 2021                              F5 Networks, Inc.
-                                                             18 May 2021
+Expires: 17 February 2022                              F5 Networks, Inc.
+                                                          16 August 2021
 
 
         Guidelines for the Organization of Fully Online Meetings
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 November 2021.
+   This Internet-Draft will expire on 17 February 2022.
 
 Copyright Notice
 
@@ -65,17 +65,19 @@ Table of Contents
 
    1.  Introduction
    2.  Some History
+     2.1.  Full vs. limited agenda
    3.  Guidelines for Online Meeting Planning
      3.1.  Time Zone Selection
        3.1.1.  Rules for selection
      3.2.  Number of Days and Total Hours per Day
      3.3.  Session/Break Length
      3.4.  Number of Parallel Tracks
-     3.5.  Full vs. limited agenda
    4.  Experiments
    5.  Chances and Lessons Learnt
    6.  Acknowledgments
-   7.  Normative References
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Authors' Addresses
 
 1.  Introduction
@@ -141,6 +143,18 @@ Table of Contents
    and North America.  While the exact time slot used had let to various
    discussions, following this 1-1-1 rule to share the pain has/seems to
    have rough consensus.
+
+2.1.  Full vs. limited agenda
+
+   The IETF-108 meeting survey asked about the structure of that meeting
+   (full meeting) compared to that of IETF 107, which hosted only a
+   limited set of session followed by interims in the weeks after.  The
+   structure of IETF 108 was preferred by 82%
+   [https://www.ietf.org/blog/ietf-108-meeting-survey/].  While the
+   limited agenda of IETF-107 could have been a good one-time
+   replacement, the value of cross-participation and high active
+   meetings weeks has been recognised as important for continuous
+   progress (and not only for newly initiated work).
 
 3.  Guidelines for Online Meeting Planning
 
@@ -253,24 +267,41 @@ Table of Contents
 
    If the number of requested sessions exceeds the number of possible
    slots with the usual 8 parallel tracks, it is possible for an online-
-   only meeting to use more tracks.  After all, this decision is
-   implicitly made by the working group chairs requesting a certain
-   number of sessions and length.  While realistic planning is desired
-   to avoid running over time, chairs are still encouraged to request
-   plenary meeting time carefully and use interims where possible and
-   sensible instead.
+   only meeting to use more tracks, as the number of physical meeting
+   rooms is not a limit factor.  If the number of meeting days is seen
+   as fixed, this decision is implicitly made by the working group
+   chairs requesting a certain number of sessions and length.  While
+   realistic planning is desired to avoid running over time, chairs are
+   encouraged to request plenary meeting time carefully and use interims
+   where possible and sensible instead.
 
-3.5.  Full vs. limited agenda
+   However, online meetings also provide an opportunity to use more time
+   more flexibly.  While for an in-person meeting all sessions have to
+   be fitted into the available time people are willing to travel at
+   once (usually roughly a week), online meetings do not have that
+   constraint.  Therefore there is a trade-off between the number of
+   parallel tracks, where more parallel tracks mean more potential
+   conflicts (as least of high-active participants), and the overall
+   time in terms of hours per day or total days used.
 
-   The IETF-108 meeting survey asked about the structure of that meeting
-   (full meeting) compared to that of IETF 107, which hosted only a
-   limited set of session followed by interims in the weeks after.  The
-   structure of IETF 108 was preferred by 82%
-   [https://www.ietf.org/blog/ietf-108-meeting-survey/].  While the
-   limited agenda of IETF-107 could have been a good one-time
-   replacement, the value of cross participation and high active
-   meetings weeks has been recognised as important for continuous
-   progress (and not only for newly initiated work).
+   A highly concentrated meeting, in structure similar to the in-person
+   plenary meeting, provides value for cross-participants (see also
+   section Section 2.1).  Further a well defined meeting time, rather
+   than spreading many interims over the whole year can make
+   deconflicting with other non-IETF meetings easier.  Still
+   opportunities to utilize the flexibility a fully only meeting
+   provides to reduce conflicts during the plenary meeting should be
+   further explored.  E.g. it would be possible to keep most regular
+   working group sessions within the usually five main meeting days but
+   have some of the more conflicted sessions such as BoFs or dispatch
+   meetings in other dedicated time slots.  As the Hackathon for online
+   only meetings is usually held in the week before the online plenary
+   meeting [I-D.ietf-shmoo-hackathon], that week is already a high
+   active week for many IETF participants and might provide an option to
+   schedule a few selected sessions, that are of high interest for a
+   large part of community and therefore hard to schedule during the
+   main IETF week, in a time slot that is well assessable for most
+   people in the community in various time zones.
 
 4.  Experiments
 
@@ -307,12 +338,22 @@ Table of Contents
 
 6.  Acknowledgments
 
-7.  Normative References
+7.  References
+
+7.1.  Normative References
 
    [RFC8719]  Krishnan, S., "High-Level Guidance for the Meeting Policy
               of the IETF", BCP 226, RFC 8719, DOI 10.17487/RFC8719,
               February 2020,
               <https://datatracker.ietf.org/doc/html/rfc8719>.
+
+7.2.  Informative References
+
+   [I-D.ietf-shmoo-hackathon]
+              Eckel, C., "Running an IETF Hackathon", Work in Progress,
+              Internet-Draft, draft-ietf-shmoo-hackathon-01, 9 July
+              2021, <https://datatracker.ietf.org/doc/html/draft-ietf-
+              shmoo-hackathon-01>.
 
 Authors' Addresses
 
